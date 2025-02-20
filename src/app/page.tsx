@@ -1,16 +1,9 @@
-import type { Metadata } from 'next';
-
 import Button from './button';
-
-export const metadata: Metadata = {
-  title: 'NLW Connect - React',
-  description: 'Next app built with NLW Connect mini-course',
-};
 
 export default function Home() {
   return (
-    <main>
-      <div>Hello world!</div>
+    <main className="h-screen w-full">
+      <h1 className="text-3xl font-heading">Hello world!</h1>
       <div>
         <Button>Teste 1</Button>
         <Button>Teste 2</Button>
